@@ -3,5 +3,5 @@
 🤖
 
 ## run
-`pip install discord`
+`pip install discord`<br>
 `pip install asyncio `
