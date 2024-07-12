@@ -1,7 +1,7 @@
 # `เขียนโดย ilv`
 
 🤖
-<hr>
+<hr></hr>
 ## run
 `pip install discord`<br>
 `pip install asyncio `
