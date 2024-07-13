@@ -31,5 +31,10 @@ async def on_message(message):
         if change_status_task is None:
             change_status_task = bot.loop.create_task(change_status())
             await message.channel.send('Bot will now change status every 5 seconds.')
-
+#upd
+    elif message.content == '-':
+        if change_status_task is not None:
+            change_status_task.cancel()
+            change_status_task = None
+            await message.channel.send('Bot has stopped changing status.')
 bot.run("")
