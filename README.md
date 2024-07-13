@@ -5,4 +5,6 @@
 
 ## run
 `pip install discord`<br>
-`pip install asyncio `
+`pip install asyncio `<br>
+`py main.py `
+
